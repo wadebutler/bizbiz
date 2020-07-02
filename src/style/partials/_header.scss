@@ -1,0 +1,29 @@
+header {
+    color: $three;
+
+    h1 {
+        text-align: center;
+        color: $two;
+
+        span {
+            color: $one;
+        }
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        width: 65%;
+        margin: 0 auto;
+
+        a {
+            text-decoration: none;
+            color: $two;
+            transition: 0.3s;
+
+            &:hover, &:focus {
+                color: $one;
+            }
+        }
+    }
+}

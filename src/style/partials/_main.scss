@@ -1,0 +1,36 @@
+main {
+    height: 80vh;
+    background: $four;
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        input {
+            margin-bottom: 30px;
+            padding: 3px;
+        }
+
+        h2 {
+            text-transform: uppercase;
+        }
+
+        .word {
+            color: $one;
+        }
+
+        button {
+            border: none;
+            border-radius: 0  10px 10px 0;
+            color: $three;
+            padding: 5px 15px;
+            background: linear-gradient(107deg, $six 0%, $one 100%);
+            transition: 0.3s;
+
+            &:hover, &:focus {
+                box-shadow: 0px 0px 10px 5px $six;
+            }
+        }
+    }
+}
